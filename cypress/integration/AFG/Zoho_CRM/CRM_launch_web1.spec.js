@@ -30,5 +30,6 @@ describe('Build everlasting customer relationships with the world’s favorite C
     cy.get('#nextbtn').click()
     cy.wait(200)
     cy.get('#showCompanyInfoBtn').click()
+    cy.get('.zgh-utilities > .zgh-accounts > .zgh-login').click()
     })
   })
