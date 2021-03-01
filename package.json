@@ -1,0 +1,17 @@
+{
+  "name": "shopdev_shopistan",
+  "version": "1.0.0",
+  "description": "shopdev",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "shopdev"
+  ],
+  "author": "shopistaan",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.5.0"
+  }
+}
