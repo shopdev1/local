@@ -14,11 +14,11 @@ describe('Build everlasting customer relationships with the world’s favorite C
     cy.get('#lastname').type('Usman')
     cy.get('#emailfield').type('usmanshopdev@gmail.com')
     cy.get('#password').type('T#$#test123')
-   cy.get('.za-country-container > dd > .select2 > .selection > .select2-selection').click()
-   cy.get('input[class="select2-search__field"]')
-   cy.contains('Oman').click()
-   cy.get('select').select('Oman')
-   .type('Oman'),slect()
+    cy.get('.za-country-container > dd > .select2 > .selection > .select2-selection').click()
+    cy.get('input[class="select2-search__field"]')
+    cy.contains('Oman').click()
+    cy.get('select').select('Oman')
+    .type('Oman'),slect()
    cy.get('#select2-country-result-q5lb-OM > .cn').click()
      cy.contains('Login').click()
      cy.contains('Register').click({ force: true })
@@ -30,18 +30,5 @@ describe('Build everlasting customer relationships with the world’s favorite C
     cy.get('#nextbtn').click()
     cy.wait(200)
     cy.get('#showCompanyInfoBtn').click()
-
-
-
-
-
-
-
-
-
-    
-
-    
-     
     })
   })
